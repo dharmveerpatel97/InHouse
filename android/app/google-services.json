@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "886094024647",
+    "project_id": "inhouseproperty-ed04b",
+    "storage_bucket": "inhouseproperty-ed04b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:886094024647:android:9aa81a08efeb01805313e2",
+        "android_client_info": {
+          "package_name": "com.bookmyplace"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "886094024647-jukaebfg53c4hvioqr1h9rb0g2nvfa3a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bookmyplace",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "886094024647-mskbaks5dr87k1fu55rcd1ejme1p6g4d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlICiM4I7oJAbYaxnpCsigs5R4z-0SlYU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "886094024647-mskbaks5dr87k1fu55rcd1ejme1p6g4d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
