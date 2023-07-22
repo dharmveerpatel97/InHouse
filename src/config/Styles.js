@@ -4,8 +4,8 @@ import {
   widthPercentageToDP as wp,
   heightPercentageToDP as hp,
 } from 'react-native-responsive-screen';
-
 import Globles, {COLOR, FONT, FONT_SIZE} from './Globles';
+
 
 const Styles = StyleSheet.create({
   container: {flex: 1, backgroundColor: COLOR.DARK_BLUE},
