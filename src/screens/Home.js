@@ -46,6 +46,7 @@ import BNLoan from '../assets/svg/BNLoan.svg';
 import BNFavourite from '../assets/svg/BNFavourite.svg';
 
 import axios from 'axios';
+import Loader from '../component/Loader';
 
 const App = ({navigation}) => {
   const {width, height} = Dimensions.get('window');
@@ -83,6 +84,7 @@ const App = ({navigation}) => {
 
   return (
     <View style={{flex: 1, backgroundColor: '#F8F8F8'}}>
+      <Loader isLoading={false}/>
       {/* Header */}
       <View style={{height: hp('35%')}}>
         <Image
@@ -122,7 +124,6 @@ const App = ({navigation}) => {
                   width={wp('11.5%')}
                   marginRight={wp('2%')}
                 />
-
                 <Text style={styles.greetingText}>Hi Anarda</Text>
               </View>
 
@@ -277,7 +278,7 @@ const App = ({navigation}) => {
 
           <ScrollView horizontal={true} showsHorizontalScrollIndicator={false}>
             <View style={{flexDirection: 'row'}}>
-              <View style={styles.containerImageCard}>
+              {/* <View style={styles.containerImageCard}>
                 <TouchableOpacity
                   onPress={() => {
                     navigation.navigate('Details');
@@ -315,7 +316,7 @@ const App = ({navigation}) => {
                     <HeartHome height={hp('10%')} width={wp('11.5%')} />
                   </TouchableOpacity>
                 </View>
-              </View>
+              </View> */}
 
               {/* Rest of the code... */}
               <View style={styles.containerImageCard}>

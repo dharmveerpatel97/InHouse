@@ -20,17 +20,9 @@ import axios from 'axios';
 
 import PlacesBGI from '../../assets/images/PlacesBGI.jpg';
 import Search from '../../assets/svg/Search.svg';
-import Mumbai from '../../assets/svg/Mumbai.svg';
-import Bangalore from '../../assets/svg/Bangalore.svg';
-import NewDelhi from '../../assets/svg/NewDelhi.svg';
-import Noida from '../../assets/svg/Noida.svg';
-import Kolkata from '../../assets/svg/Kolkata.svg';
-import Chennai from '../../assets/svg/Chennai.svg';
-import ButtonBGI from '../../assets/svg/ButtonBGI.svg';
 import {useSelector, useDispatch} from 'react-redux';
 import Store, {stateApiGet} from '../../redux/Store';
-import {useNavigation} from '@react-navigation/native';
-import Globles, {COLOR, FONT, FONT_SIZE} from '../../config/Globles';
+import  {FONT, FONT_SIZE} from '../../config/Globles';
 
 const States = ({navigation}) => {
   const dispatch = useDispatch();

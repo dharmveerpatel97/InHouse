@@ -50,6 +50,7 @@ import MessageForm from '../screens/MessageForm';
 
 import LoanSubCategory from '../screens/LoanSubCategory';
 import SubService from '../screens/SubService'; 
+import { navigationRef } from './RootNavigation';
 
 const Stack = createNativeStackNavigator();
 
@@ -57,10 +58,10 @@ const Navigation = () => {
   return (
     <View style={{flex: 1}}>
       <StatusBar backgroundColor="#001D4C" barStyle="light-content" />
-      <NavigationContainer>
+      <NavigationContainer ref={navigationRef}>
         <Stack.Navigator
           screenOptions={{headerShown: false}}
-          initialRouteName="Splash"
+          initialRouteName="Home"
         >
           <Stack.Screen name="Splash" component={Splash} />
           <Stack.Screen name="Login" component={Login} />
